@@ -1,7 +1,7 @@
 # Cliente21
 
 Solução do desafio proposto. <br />
-Criada uma tela inicial para a importação do arquivo xml, ao realizar a importação os Titulos são exibidos no DataGridView. <br />
+Criada uma tela inicial para a importação do arquivo xml, ao realizar a importação, os Titulos são exibidos no DataGridView. <br />
 Para abrir a tela de edição / exclusão, basta dar um duplo clique na linha desejada. <br />
 <br />
 Foram criadas procedures para realizar a inserção do xml, alteração dos Titulos e exclusão dos mesmos.<br />
