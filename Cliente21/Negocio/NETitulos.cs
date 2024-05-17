@@ -112,7 +112,15 @@ namespace Cliente21.Negocio
         #region "ExcluirTitulo"
         public void ExcluirTitulo(int protocolo)
         {
-            ADTitulos.Instance.ExcluirTitulo(protocolo);
+            try
+            {
+                ADTitulos.Instance.ExcluirTitulo(protocolo);
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            
 
         }
         #endregion
